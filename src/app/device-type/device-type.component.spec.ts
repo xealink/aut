@@ -7,7 +7,7 @@ describe('DeviceTypeComponent', () => {
 	let component: DeviceTypeComponent;
 	let fixture: ComponentFixture<DeviceTypeComponent>;
 
-	fdescribe('Landscape Mode', () => {
+	describe('Landscape Mode', () => {
 		beforeEach(async () => {
 			await TestBed.configureTestingModule({
 				declarations: [DeviceTypeComponent]
@@ -40,6 +40,4 @@ describe('DeviceTypeComponent', () => {
 			expect(component.isDrawerOpen).toBe(false);
 		})
 	});
-
-
 });
