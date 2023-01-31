@@ -55,7 +55,6 @@ describe('PrimaryNavComponent', () => {
 		})
 	});
 
-
 	describe('with a invalid user (null)', () => {
 
 		beforeEach(async () => {
